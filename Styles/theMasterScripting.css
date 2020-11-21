@@ -1,0 +1,283 @@
+* {
+	font-family: "Montserrat";
+}
+body {
+font-family: "Montserrat";
+margin: 0px 0px;
+background-color: transparent;
+font-size: 16px;
+width: 100%;
+}
+
+#MasterCover{
+	overflow-x: hidden;
+}
+
+#level999 {
+	/*position: absolute;  */
+	/*right: 5px;*/
+	/*top: 10px;*/
+	/*height: 48vh;*/
+	/*width: 100%;*/
+	/*margin-top: -4px;*/
+	/*margin-bottom: 0px;*/
+	/*background-color: transparent;*/
+	/*border: 2px solid yellow;*/
+}
+
+/*#####    THIS IS LOGO DESIGN*/
+ #level999 #level998 a {
+ 	/*display: absolute;*/
+ position: absolute;  
+	right: 5px;
+	top: 10px;
+	/*border: 1px solid black;*/
+	display: inline-block;
+	background-color: transparent;
+	cursor: pointer;
+	float: right;
+margin-top: -50px;
+width: 26vw;
+height: 30vh;
+/*cursor: pointer;*/
+z-index: 99993;
+}
+#level999 #level998 a img{
+	cursor: pointer;
+float: right;
+margin-top: -30px;
+width: 26vw;
+height: 48vh;
+background-color: transparent;
+z-index: 9999;
+
+}
+@media only screen and (max-width: 570px){
+	#level998 img {
+		margin-top: -15px;
+		width: 32%;
+		height: 20%;
+		/*border: 5px solid red;*/
+	}
+}
+/*Background video in loop*/
+.infiLoopVidInBg {
+	display: block;
+	margin:0px 0px;
+	background-color: transparent;
+	margin-top: -25px;
+	margin-bottom: 0px;
+	width: 100%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	overflow: hidden;
+}
+
+/*TEXT OVER THE VIDEO*/
+
+.PaulBoskyQuote h2 {
+	display: none;
+	position: absolute;
+	top: 20%;
+	right: 3%;
+	/*font-style: none;*/
+	background-color: transparent;
+	/*border: 1px solid black;*/
+	
+}
+
+/*#######################################NAVIGATION BAR#####################*/
+
+.navigator {
+display: block;
+width: 100%;
+text-align: center;
+/*border: 1px solid cyan;*/
+
+}
+.navListWrap {
+	display: inline-block;
+	width: 100%;
+margin: 60px auto;
+text-align: center;
+/*border: 1px solid red;*/
+}
+.upper-two {
+	display: inline;
+	width: 45%;
+	/*height: 100%;*/
+	/*margin: 2px 2px;*/
+	/*border: 1px solid blue;*/
+}
+.below-two {
+	display: inline;
+	width: 45%;
+	/*border: 1px solid blue;*/
+}
+.listHomoty {
+	display: inline-block;
+	max-width:270px; 
+	max-height:270px;
+	/*border: 1px solid black;*/
+	
+}
+.anchorHomoty {
+	display: inline-block;
+	max-width:300px; 
+	max-height:300px;
+	margin: 2px 2px;
+	/*border: 1px solid yellow;*/
+}
+.navigator  #navAnchorWrap a {
+	display: block;
+	text-align: center;
+	
+}
+.navigator  #navAnchorWrap a span {
+	position: absolute;
+	width: 160px;
+	height: 40px;
+	padding-top:  7px;
+	margin: 180px 45px;
+	font-size: 18px;
+	background-color: #011843;
+	color: white;
+	border-radius: 4px;
+}
+@media only screen and (min-width: 845px) and (max-width: 1150px) {
+	.upper-two {
+		display: block;
+		width: 100%;
+	}
+}
+
+/*################ footer css #############*/
+footer {
+	background-color: #011843;
+	margin-top: 40px;
+	/*border: 1px solid green;*/
+	overflow-x:  hidden;
+	overflow-y: hidden;
+}
+
+.container {
+	background-color: transparent;
+	
+
+}
+.container .row {
+
+ background-color: transparent;
+}
+
+.footHomoty {
+	margin:5px 0px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	background-color: transparent;
+	/*border: 1px solid black;*/
+	
+}
+
+
+.footDetail {
+	display: block;
+	width: 90%;
+	color:white;
+	font-size: 12px;
+	text-align: left;
+	overflow: hidden;
+	background-color: transparent;
+	margin: 2px auto; 
+	/*border: 1px solid red;*/
+}
+.footDetailSep { /* Seperated Travel News Design*/
+	display: block;
+	width: 90%;
+	color:white;
+	font-size: 12px;
+	text-align: left;
+	/*overflow: hidden;*/
+	background-color: transparent;
+	margin: 2px auto; 
+	/*padding-left: -20px;*/
+	/*border: 1px solid red;*/
+}
+.footDetailSep span {
+	color: red;
+}
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	color: red;
+}
+
+footer .footerTwo .footDetail {
+	/*border:1px solid white;*/
+	text-align: center;
+}
+
+footer .footerTwo .footDetail .social {
+	display: inline-block;
+	width: 30px; 
+	height: 30px;
+	text-align: center;
+	background-color: #2f4f4f;
+	margin:0px 1px;
+}
+
+footer .footerTwo .footDetail svg {
+	width:15px;
+	 height:15px;
+	margin:6px auto;
+
+}
+/*Hover effect to Social links */
+footer .footerTwo .footDetail .facebook:hover {
+	background-color: blue;
+}
+footer .footerTwo .footDetail .twitter:hover {
+	background-color: cyan;
+}
+footer .footerTwo .footDetail .youtube:hover {
+	background-color: red;
+}
+footer .footerTwo .footDetail .web:hover {
+	background-color: blue;
+}
+footer .footerTwo .footDetail .insta:hover {
+	background-color: red;
+}
+.Googlelanguages {
+	/*border: 1px solid white;*/
+	width: 55%;
+	margin: 1px auto;
+	text-align: center;
+}
+/* hover effect close*/
+
+footer .footerFive .footDetail {
+	width: 90%;
+	margin:0px auto;
+	/*border: 1px solid red;*/
+	/*padding:0px 10px;*/
+	text-align: center;
+	font-size: 8px;
+
+}
+.privacy-policy {
+	display: block; 
+	text-align: center;
+	 font-size: 12px;
+	 width: 100%;  
+	margin-bottom: -20px;
+	/*border: 1px solid white;*/
+	margin-top: -5px;
+}
+
+	
+
+/*################ footer css #############*/
