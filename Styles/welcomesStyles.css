@@ -1,0 +1,124 @@
+* {
+	font-family: "Montserrat";
+}
+body {
+font-family: "Montserrat";
+margin: 0px 0px;
+background-color: transparent;
+font-size: 16px;
+width: 100%;
+}
+.paul_message {
+	text-align: center;
+	margin: -10px auto;
+	width: 100%;
+	/*border: 1px solid red;*/
+	background-color: #011843;
+}
+.paul_message img {
+	text-align: center;
+	margin:-6px auto;
+}
+.wrapperOfThePage .topper .container {
+	width: 80%;
+	margin:40px auto;
+	text-align: left;
+font-size: 16px;
+
+}
+.wrapperOfThePage .topper .container .fullwrap {
+	display: block;
+	margin:20px auto;
+	border-right: 1px solid #ffebcd;
+	/*box-shadow: 1px 0px #ffebcd;*/
+}
+.wrapperOfThePage .topper .container .fullwrap .image_wrapper {
+	width: 20%;
+	text-align: center;
+	display: inline-block;
+}
+.wrapperOfThePage .topper .container .fullwrap .texthomoty {
+	width: 90%;
+	display: inline-block;
+}
+.wrapperOfThePage .topper .container .fullwrap .texthomoty .title {
+	display: inline-block;
+	font-size: 18px;
+	color:red;
+	/*border: 1px solid black;*/
+}
+@media only screen and (max-width: 575px){
+	.wrapperOfThePage .topper .container .fullwrap {
+		/*border: 1px solid yellow;*/
+	}
+	.wrapperOfThePage .topper .container .fullwrap .image_wrapper {
+		position: relative;
+		float: left;
+		width: 40%;
+		left:-10px;
+		/*border: 1px solid green;*/
+	}
+	.wrapperOfThePage .topper .container .fullwrap .texthomoty{
+		position: relative;
+		/*border: 1px solid red;*/
+		float: right;
+		right: -5px;
+		top: -80px;
+		width: 60%;
+	}
+
+}
+/*
+body {
+	font-family: 'montserrat';
+	background-color: lightgreen;
+}
+.wrapperOfThePage .topper .container {
+	width: 80%;
+	margin:40px auto;
+	text-align: left;
+	background-color: lightgreen;
+
+
+}
+.wrapperOfThePage .topper .container .fullwrap {
+	display: block;
+	margin:20px auto;
+	border-right: 1px solid #ffebcd;
+}
+.wrapperOfThePage .topper .container .fullwrap .image_wrapper {
+	width: 20%;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid red;
+}
+.wrapperOfThePage .topper .container .fullwrap .texthomoty {
+	width: 90%;
+	display: inline-block;
+	border: 1px solid red;
+}
+.wrapperOfThePage .topper .container .fullwrap .texthomoty .title {
+	display: inline-block;
+	font-size: 18px;
+	color:red;
+	border: 1px solid red;
+}
+@media only screen and (max-width: 575px){
+	.wrapperOfThePage .topper .container .fullwrap .image_wrapper {
+		border: 1px solid blue;
+		position: relative;
+		float: left;
+		top: -80px;
+
+
+
+	}
+	.wrapperOfThePage .topper .container .fullwrap .texthomoty{
+		border: 1px solid red;
+		position: relative;
+		float: right;
+		top: -80px;
+		width: 70%;
+	}
+
+}*/
