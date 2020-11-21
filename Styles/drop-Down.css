@@ -1,0 +1,254 @@
+* {
+	font-family: "Montserrat";
+}
+body {
+font-family: "Montserrat";
+margin: 0px 0px;
+background-color: transparent;
+font-size: 14px;
+width: 100%;
+}
+
+.vidForm {
+	margin:0px 0px;
+	font-size: 14px;
+}
+
+/*FORM CSS*/
+.formPart {
+	margin: 0px 50px;
+	background-color: transparent;
+	font-size: 12px;
+
+}
+
+
+/*toggle wrap*/
+.toggleSwitchWrap {
+	background-color: none;
+	/*border: 1px solid black;*/
+	text-align: center;
+}
+
+/*toggle label wrap*/
+.toggleSwitchWrap .activeDot {
+	display: none;
+	text-align: left;
+	height: 5px;
+	width: 5px;
+	background-color: white;
+	border-radius: 60%;
+	margin-bottom: 26px;
+	margin-right: -10px;
+	/*background-color: black;*/
+	/*color: black;*/
+	z-index: 9999;
+	position: relative;
+}
+@media only screen and (max-width: 500px){
+	.activeDot{
+		/*display: none;*/
+	}
+}
+.toggleLabel {
+	opacity: 100;
+	position: relative;
+	display: inline-block;
+	width: 159px;
+	height: 27px;
+	border-radius: 4px;
+	border: 1px solid black;
+	cursor: pointer;
+	padding-top: 2px;
+	/*border: 1px solid red;*/
+}
+
+/*toggle transition creation one*/
+.toggleLabel::after {
+	content: "ONEWAY";
+	color: white;
+	position: absolute;
+	top: 0.1px;
+	left: 0px;
+	width: 79px;
+	height: 25px;
+	border-radius: 3px;
+	background-color: #011843;
+	padding-top: 2.5px;
+	border:transparent;
+	transition: all 0.4s;
+	opacity: 1;
+	font-size: 14px;
+}
+
+	/*toggle transition creation two*/
+.toggleLabel::before {
+	content: "RETURN";
+	position: absolute;
+	width: 79px;
+	height: 25px;
+	border-radius: 3px;
+	background-color: #808080;
+	border:transparent;
+	top: 0.2px;
+	right: 0px;
+	transition: all 0.4s;
+	color: white;
+	opacity: 0.8;
+	padding-top: 2.5px;
+	font-size: 14px;
+}
+/*toggle transition one effect after click*/
+.contentToggle:checked + .toggleLabel::after {
+	left:78px;
+	background-color: #808080;
+	opacity: 0.8;
+}
+/*toggle transition two effect after same click*/
+.contentToggle:checked + .toggleLabel::before {
+	right:78px;
+	background-color:#011843;
+	opacity: 1;
+}
+
+/*dissapear the checkbox */
+.contentToggle{
+	display: none;
+	cursor: pointer;
+}
+
+/*REST FORMS CSS STARTS HERE*/
+
+
+.contentHomotywrap {
+
+display: block;
+width: 100%;
+background-color: inherit;
+margin:6px 0px;
+}
+.contentHomoty0 {
+	display: block;
+	width: 97.2%;
+	margin:5px 5px;
+}
+.contentHomoty1 {
+	display: inline-block;
+	width: 35%;
+	margin:5px 5px;
+
+}
+.contentHomoty2{
+	display: inline-block;
+	width: 25%;
+	margin:5px 5px;
+
+}
+
+/*seperate design for Name, first and last*/
+.contentHomoty22{
+	display: block;
+	width: 100%;
+	margin:5px 5px;
+	/*border: 1px solid blue;*/
+
+}
+.contentHomoty22 .contentName {
+	background-color: transparent;
+	display: block;
+	width: 100%;
+	/*border: 1px solid black;*/
+}
+.contentHomoty22 .contentName  .name1 input{
+	display: inline-block;
+	width: 35%;
+	outline: none;
+	margin-bottom: 3px;
+}
+.contentHomoty22 .contentName  .name2 input {
+	margin-left: 20px;
+	display: inline-block;
+	width: 35%;
+	outline: none;
+}
+
+/*Name design ended here*/
+
+.contentHomoty3{
+	display: inline-block;
+	width: 20%;
+	margin:5px 5px;
+
+}
+.contentHomoty4{
+	display: inline-block;
+	width: 20%;
+	margin:5px 5px;
+
+}
+.contentDadepartureDate {
+
+}
+
+.contentHomoty {
+	display: inline-block;
+	width: 100%;
+	border-radius: 3px;
+	/*border-style: none;*/
+	outline: none;
+}
+.submitWrap input {
+	background-color: #000040;
+}
+@media only screen and (max-width: 750px){
+
+	.contentHomotywrap {
+		display: block;
+		width: 100%;
+		background-color: inherit;
+		margin:5px 0px;
+		}
+
+
+}
+/*input fields*/
+.contentHomotywrap input[type=text], input[type=email], input[type=tel], input[type=Date], select {
+	height: 23px;
+	border-width:  thin;
+	border-color: black;
+	background-color: white;
+	color: black;
+	resize: none;
+
+}
+.contentHomotywrap input:focus {
+	background-color: white;
+}
+@media only screen and (max-width: 500px){
+
+.contentHomoty22{
+	display: block;
+	width: 97%;
+	margin:5px 5px;
+
+}
+.contentHomoty22 .contentName {
+	background-color: transparent;
+	display: block;
+	width: 100%;
+}
+
+.contentHomoty22 .contentName  .name1 input{
+	display: inline-block;
+	width: 100%;
+	outline: none;
+	height: 23px;
+}
+.contentHomoty22 .contentName  .name2 input {
+	margin-left: 0px;
+	display: inline-block;
+	width: 100%;
+	outline: none;
+	height: 23px;
+}
+}
