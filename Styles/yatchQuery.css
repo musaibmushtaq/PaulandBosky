@@ -1,0 +1,174 @@
+* {
+	font-family: "Montserrat";
+}
+body {
+font-family: "Montserrat";
+margin: 0px 0px;
+background-color: transparent;
+font-size: 14px;
+width: 100%;
+}
+
+
+.yatchQuery {
+	font-size: 12px;
+	margin:0px 10px;
+	background-color: transparent;
+	/*border: 1px solid red;*/
+}
+/*.yatchQuery .queryTop{
+	display: block;
+	 text-align: center;
+	 background-color: #011843;
+	color: white;
+	border:1px solid black;
+}*/
+
+.formItemsWrap {
+	margin:1px 1px;
+	background-color: transparent;
+	display: block;
+	padding: 2px 0px;
+	/*border: 1px solid black;*/
+}
+.whereWrapper, .whenWrapper, .guestsWrapper, .yachtWrapper {
+	display: inline-block;
+	width: 23%;
+	background-color: transparent;
+	margin:5px 5px;
+	/*border: 1px solid yellow;*/
+}
+.whereWrapper select, .whenWrapper select, .guestsWrapper select, .yachtWrapper select {
+	width: 100%;
+	border-radius: 4px;
+	outline: none
+	border:none;
+	background-color: white;
+	color: black;
+
+}
+
+/*.formITemWrap select {
+	display: block;
+	width: 100%;
+
+}*/
+.buttonWraper {
+display: block;
+width: 100%;
+/*text-align: center;*/
+/*border: 1px solid red;*/
+}
+ .buttonWraper button{
+	display: block;
+	width: 20%;
+	background-color: #011843;
+	margin: 6px auto;
+	/*margin-left: 20px;*/
+	text-align: center;
+	color: white;
+	border:none;
+	border-radius: 3px;
+
+}
+.MoreOptionsWrapper {
+	background-color: white;
+	/*border:1px solid black;*/
+}
+.MoreOptionsWrapper .moreOptionsButton button {
+	display: block;
+	background-color: #011843;
+	outline: none;
+	outline-style: none;
+	border:none;
+	font-style: none;
+	font-size: 14px;
+	color:white;
+	border-radius: 3px;
+	margin-left: 20px;
+
+}
+.MoreOptionsWrapper .moreOptionsBlock{
+	/*border:1px solid black;*/
+	text-align: center;
+	
+}
+.MoreOptionsWrapper .moreOptionsBlock .option-item {
+	display: inline-block;
+	width: 20%;
+	min-height: 25px;
+	background-color: #011843;
+	margin:3px 5px;;
+	color: white;
+}
+
+.MoreOptionsWrapper .moreOptionsBlock a {
+	color: white;
+}
+
+/*######3    YATCH TYPES*/
+.SearchByYatchType {
+	/*border:1px solid black;*/
+	background-color: lightgrey;
+	text-align: center;
+}
+.SearchByYatchType ul {
+	display: block;
+	/*border:1px solid yellow;*/
+	margin:0px 0px;
+	list-style: none;
+	padding: 3px;
+}
+.SearchByYatchType ul li{
+	background-color: white;
+	display: block;
+	max-width: 20%;
+	/*border: 1px solid black;*/
+	margin: 5px 5px;
+	text-align: center;
+	/*color: black;*/
+}
+.SearchByYatchType ul li a{
+	color: #000080;
+	text-decoration: none;
+}
+.SearchByYatchType .listItem {
+	display: inline-block;
+    
+}
+.abc {
+	background-color: #011843;
+}
+.SearchByYatchType .listItem .amount{
+	display: block;
+	font-size: 12px;
+}
+
+
+
+
+/*###### MEDIA QUERY*/
+@media only screen and (max-width: 850px) {
+	.fieldsWrapper {
+	/*border: 1px solid black;*/
+	display: block;
+	width: 70%;
+	margin: 0px auto;
+
+
+	}
+
+
+.whereWrapper, .whenWrapper, .guestsWrapper, .yachtWrapper {
+	display: block;
+	width: 100%;
+	/*background-color: #011843;*/
+	/*color: white;*/
+	margin:10px 0px;
+	/*border: 1px solid black;*/
+}
+
+
+
+}
+
